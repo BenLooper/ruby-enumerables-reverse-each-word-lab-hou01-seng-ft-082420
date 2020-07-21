@@ -4,5 +4,5 @@ def reverse_each_word (sentence1)
   word_list.each do |word|
     final.concat(word.reverse + ' ')
   end 
-  final
+  final.strip 
 end 
